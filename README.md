@@ -2,7 +2,7 @@
 
 Fake project with config which crashes rebar3 on upgrade/tree commands. For testing and reporting purposes only.
 
-Tested on latest rebar3 (3.4.4) with custom built Erlang 17.4.1 via kerl with
+Tested on latest rebar3 (3.4.3) with custom built Erlang 17.4.1 via kerl with
 ```
 KERL_CONFIGURE_OPTIONS="--enable-lock-counter -with-ssl=/usr/local/opt/openssl --enable-threads --enable-smp-support --enable-kernel-poll --with-dynamic-trace=dtrace --enable-hipe --enable-dirty-schedulers"
 KERL_INSTALL_MANPAGES=yes
